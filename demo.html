@@ -30,7 +30,10 @@
             <div class="top-nav ">
 
               <div class="nav notify-row" id="top_menu">
-                <a href="/">Home</a> <i class=" fa fa-caret-right"></i>
+                <ul class="breadcrumb">
+                    <li><a href="#"><i class="fa fa-home"></i> Home</a></li>
+                    <li><a href="#">Users</a></li>
+                </ul>
               </div>
                 <!--search & user info start-->
                 <ul class="nav pull-right top-menu">
@@ -64,11 +67,27 @@
               <!-- sidebar menu start-->
             <ul class="sidebar-menu" id="nav-accordion">
                 <li>
-                    <a href="index.html">
-                        <i class="fa fa-dashboard"></i>
-                        <span>Dashboard</span>
-                    </a>
+                  <a href="#"><i class="fa fa-user"></i><span>Users</span></a>
                 </li>
+                <li>
+                  <a href="#"><i class="fa fa-clock-o"></i><span>Plans</span></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-cog"></i><span>Account Settings</span></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-file"></i><span>Plan Data</span></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-lock"></i><span>Administrator</span></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-pencil"></i><span>Records</span></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-list"></i><span>Line Items</span></a>
+                </li>
+
             </ul>
           </div>
       </aside>
@@ -76,10 +95,79 @@
       <!--main content start-->
       <section id="main-content">
           <section class="wrapper">
-              <!--state overview start-->
               <div class="state-overview">
+                <div class="col-lg-4">
+                      <section class="panel pages">
+                          <div class="symbol terques">
+                              <i class="fa fa-user"></i>
+                          </div>
+                          <div class="value">
+                              <h2>Users</h2>
+                          </div>
+                      </section>
+                  </div>
+                  <div class="col-lg-4">
+                        <section class="panel pages">
+                            <div class="symbol red">
+                                <i class="fa fa-clock-o"></i>
+                            </div>
+                            <div class="value">
+                                <h2>Plans</h2>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="col-lg-4">
+                          <section class="panel pages">
+                              <div class="symbol yellow">
+                                  <i class="fa fa-cog"></i>
+                              </div>
+                              <div class="value">
+                                  <h2>Account Settings</h2>
+                              </div>
+                          </section>
+                    </div>
+                    <div class="col-lg-4">
+                          <section class="panel pages">
+                              <div class="symbol blue">
+                                  <i class="fa fa-file"></i>
+                              </div>
+                              <div class="value">
+                                  <h2>Plan Data</h2>
+                              </div>
+                          </section>
+                    </div>
+
+                    <div class="col-lg-4">
+                          <section class="panel pages">
+                              <div class="symbol terques">
+                                  <i class="fa fa-lock"></i>
+                              </div>
+                              <div class="value">
+                                  <h2>Administrator</h2>
+                              </div>
+                          </section>
+                    </div>
+                    <div class="col-lg-4">
+                          <section class="panel pages">
+                              <div class="symbol red">
+                                  <i class="fa fa-pencil"></i>
+                              </div>
+                              <div class="value">
+                                  <h2>Records</h2>
+                              </div>
+                          </section>
+                    </div>
+                    <div class="col-lg-4">
+                          <section class="panel pages">
+                              <div class="symbol yellow">
+                                  <i class="fa fa-list"></i>
+                              </div>
+                              <div class="value">
+                                  <h2>Line Items</h2>
+                              </div>
+                          </section>
+                    </div>
               </div>
-              <!--state overview end-->
           </section>
       </section>
       <!--main content end-->
