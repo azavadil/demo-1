@@ -524,29 +524,56 @@ ul.top-menu > li > a:hover, ul.top-menu > li > a:focus {
 
 }
 
-.state-overview .terques {
+.state-overview, .terques {
     background: #6ccac9;
 }
 
-.state-overview .red {
+.state-overview, .red {
     background: #ff6c60;
 }
 
-.state-overview .yellow {
+.state-overview, .yellow {
     background: #f8d347;
 }
 
-.state-overview .blue {
+.state-overview, .blue {
     background: #57c8f2;
+}
+
+.header-icon {
+  font-size: 20px;
+  color: #fff;
 }
 
 .panel.pages:hover {
   background-color: #F5F5F5;
 }
 
-
 .breadcrumb {
   background-color: #fff;
   padding: 0 0 0 0;
   margin-bottom: 0px;
+}
+
+.panel-heading {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+  display: block;
+}
+
+.primary-bkg {
+  background-color: #6ccac9;
+}
+
+h3 {
+  color: #fff;
+  display: inline;
+  padding: 0 10px;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.form-horizontal .control-label {
+  font-weight: 300;
+  font-size: 14px;
+  text-align: left;
 }
